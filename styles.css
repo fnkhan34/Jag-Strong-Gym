@@ -59,6 +59,7 @@ h1,h2,h3,.display{
 
 /* ghost display word behind sections — the scale-contrast move */
 .ghost{
+  display:none;
   position:absolute;
   top:34px;left:2vw;
   font-family:'Anton',sans-serif;font-style:italic;
