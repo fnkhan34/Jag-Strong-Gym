@@ -613,8 +613,19 @@ footer li{margin-bottom:10px;}
 .fine{color:#6c6c6c;text-align:center;font-size:.8rem;margin-top:30px;letter-spacing:.05em;}
 
 /* ============ SCROLL REVEAL ============ */
-.reveal{opacity:1;transform:none;transition:opacity .6s ease,transform .6s ease;}
-.reveal.in{opacity:1;transform:none;}
+.reveal{
+  opacity:1;
+  transform:none;
+  transition:opacity .6s ease, transform .6s ease;
+}
+.reveal.animate{
+  opacity:0;
+  transform:translateY(28px);
+}
+.reveal.animate.in{
+  opacity:1;
+  transform:none;
+}
 .reveal.d1{transition-delay:.08s;}
 .reveal.d2{transition-delay:.16s;}
 .reveal.d3{transition-delay:.24s;}
