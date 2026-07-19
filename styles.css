@@ -669,7 +669,6 @@ footer li{margin-bottom:10px;}
   .feature-row.flip .f-media{order:0;}
   .feature-row.flip .f-body{order:1;}
   .stat{padding-right:28px;margin-right:28px;}
-  .ghost{font-size:clamp(4rem,20vw,8rem);}
   footer{clip-path:polygon(0 6vw,100% 0,100% 100%,0 100%);padding-top:calc(80px + 6vw);}
 }
 /* ============ MOTION & PREMIUM POLISH ============ */
