@@ -57,21 +57,6 @@ h1,h2,h3,.display{
 .h-xl{font-size:clamp(2.6rem,6vw,4.6rem);}
 .h-lg{font-size:clamp(2.2rem,4.8vw,3.6rem);}
 
-/* ghost display word behind sections — the scale-contrast move */
-.ghost{
-  display:none;
-  position:absolute;
-  top:34px;left:2vw;
-  font-family:'Anton',sans-serif;font-style:italic;
-  font-size:clamp(5rem,16vw,13rem);
-  line-height:1;text-transform:uppercase;
-  color:transparent;
-  -webkit-text-stroke:1px rgba(255,255,255,.07);
-  pointer-events:none;user-select:none;
-  white-space:nowrap;
-  z-index:0;
-}
-
 section{position:relative;padding:120px var(--pad-x);z-index:2;}
 
 /* ---- cut-steel section geometry ---- */
@@ -192,11 +177,6 @@ nav.scrolled{
 }
 .btn.dark{background:var(--black);color:var(--white);}
 .btn.dark:hover{background:var(--charcoal);}
-.btn.ghost{
-  background:transparent;border:2px solid var(--blue);
-  clip-path:none;color:var(--white);
-}
-.btn.ghost:hover{background:var(--blue);}
 
 /* hamburger */
 .menu-btn{
@@ -705,10 +685,9 @@ footer li{margin-bottom:10px;}
 
 /* scroll reveal */
 .rv{
-  opacity:0;transform:translateY(30px);
+  opacity:1;transform:translateY(30px);
   transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1);
   transition-delay:var(--d,0ms);
-  will-change:opacity,transform;
 }
 .rv.in{opacity:1;transform:translateY(0);}
 
@@ -718,10 +697,11 @@ section::before{
   background:linear-gradient(90deg,var(--blue),rgba(46,127,232,0));
   box-shadow:0 0 10px rgba(46,127,232,.5);
   z-index:6;pointer-events:none;
+  opacity:0;
   transition:width 1.2s cubic-bezier(.22,1,.36,1) .15s;
 }
 section.cut-top::before{top:4.7vw;}
-section.line-in::before{width:100%;}
+section.line-in::before{width:100%;opacity:1;}
 
 /* hero entrance */
 @keyframes rise{from{opacity:0;transform:translateY(36px);}}
