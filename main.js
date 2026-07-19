@@ -1,4 +1,4 @@
-// JagStrong shared behavior: mobile menu, nav scroll state, scroll reveals
+// Jagstrong shared behavior: mobile menu, nav scroll state, scroll reveals
 (function(){
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
