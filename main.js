@@ -1,6 +1,6 @@
 // Jagstrong shared behavior: mobile menu, nav scroll state, scroll reveals
 (function(){
-  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reduced = true;
 
   // Mobile menu toggle
   var btn = document.querySelector('.menu-btn');

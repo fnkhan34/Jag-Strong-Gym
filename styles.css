@@ -613,7 +613,7 @@ footer li{margin-bottom:10px;}
 .fine{color:#6c6c6c;text-align:center;font-size:.8rem;margin-top:30px;letter-spacing:.05em;}
 
 /* ============ SCROLL REVEAL ============ */
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease;}
+.reveal{opacity:1;transform:none;transition:opacity .6s ease,transform .6s ease;}
 .reveal.in{opacity:1;transform:none;}
 .reveal.d1{transition-delay:.08s;}
 .reveal.d2{transition-delay:.16s;}
