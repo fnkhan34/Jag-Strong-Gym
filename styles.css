@@ -323,7 +323,7 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
 }
 .card:hover::before{transform:scaleY(1);}
 .card .ph{
-  height:170px;margin:-34px -30px 26px;
+  height:280px;margin:-34px -30px 26px;
   background:repeating-linear-gradient(-35deg,#101010 0 12px,#181818 12px 24px);
   display:flex;align-items:center;justify-content:center;
   color:rgba(255,255,255,.16);
