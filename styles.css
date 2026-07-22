@@ -696,6 +696,25 @@ footer li{margin-bottom:10px;}
   .feature-row.flip .f-body{order:1;}
   .stat{padding-right:28px;margin-right:28px;}
   footer{clip-path:polygon(0 6vw,100% 0,100% 100%,0 100%);padding-top:calc(80px + 6vw);}
+  .foot-grid{
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+    text-align:center;
+  }
+  .foot-grid > div:first-child{
+    grid-column:1 / -1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .foot-grid > div:first-child img{
+    margin-left:auto;
+    margin-right:auto;
+  }
+  footer ul{
+    padding:0;
+    list-style:none;
+  }
 }
 /* ============ MOTION & PREMIUM POLISH ============ */
 
