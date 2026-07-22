@@ -281,7 +281,7 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
     linear-gradient(115deg,rgba(10,10,10,.92) 45%,rgba(10,10,10,.6)),
     repeating-linear-gradient(-35deg,#111 0 14px,#151515 14px 28px);
   overflow:hidden;
-  padding:170px var(--pad-x) calc(60px + 4.5vw);
+  padding:170px var(--pad-x) 60px;
   clip-path:polygon(0 0,100% 0,100% calc(100% - 4.5vw),0 100%);
 }
 .page-hero.short{min-height:48vh;}
