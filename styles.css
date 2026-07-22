@@ -275,7 +275,7 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
 /* ============ PAGE HERO (interior) ============ */
 .page-hero{
   position:relative;
-  min-height:62vh;
+  min-height:80vh;
   display:flex;
   align-items:flex-end;
   background:
