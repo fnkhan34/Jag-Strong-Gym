@@ -719,6 +719,7 @@ footer li{margin-bottom:10px;}
     padding:0;
     list-style:none;
   }
+  .page-hero.no-slash .slash{display:none;}
 }
 /* ============ MOTION & PREMIUM POLISH ============ */
 
