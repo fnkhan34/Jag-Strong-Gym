@@ -103,7 +103,7 @@ section{position:relative;padding:120px var(--pad-x);z-index:2;}
 nav{
   position:sticky;top:0;z-index:90;
   display:flex;align-items:center;justify-content:space-between;
-  padding:16px var(--pad-x);
+  padding:8px var(--pad-x);
   background:rgba(8,8,8,.72);
   backdrop-filter:blur(12px);
   border-bottom:1px solid var(--hair);
