@@ -334,7 +334,11 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
   content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
   background:linear-gradient(90deg,var(--blue),transparent 70%);
 }
-.card h3{font-size:1.45rem;margin-bottom:12px;}
+.card h3{
+  font-size:1.45rem;
+  margin-bottom:12px;
+  margin-top:20px;
+}
 .card p{color:var(--gray);font-size:.95rem;}
 .tag{
   display:inline-block;margin-top:18px;
