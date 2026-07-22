@@ -305,9 +305,10 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
 }
 .card{
   background:var(--panel);
-  padding:34px 30px 40px;
-  position:relative;overflow:hidden;
-  transition:background .2s ease,transform .25s cubic-bezier(.22,1,.36,1),box-shadow .25s ease;
+  padding:0 0 38px;
+  position:relative;
+  overflow:hidden;
+  transition:background .2s ease;
 }
 .card::before{
   content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
@@ -323,12 +324,12 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
 }
 .card:hover::before{transform:scaleY(1);}
 .card .ph{
-  height:170px;margin:-34px -30px 26px;
-  background:repeating-linear-gradient(-35deg,#101010 0 12px,#181818 12px 24px);
-  display:flex;align-items:center;justify-content:center;
-  color:rgba(255,255,255,.16);
-  font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;font-weight:700;
-  position:relative;text-align:center;padding:0 14px;
+  height:320px;
+  margin:0 0 0 0;
+  width:100%;
+  overflow:hidden;
+  position:relative;
+  display:block;
 }
 .card .ph::after{
   content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
@@ -337,14 +338,21 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
 .card h3{
   font-size:1.45rem;
   margin-bottom:12px;
-  margin-top:20px;
+  margin-top:24px;
+  padding:0 30px;
 }
-.card p{color:var(--gray);font-size:.95rem;}
+.card p{
+  color:var(--gray);
+  font-size:.95rem;
+  padding:0 30px;
+}
 .tag{
   display:inline-block;margin-top:18px;
+  margin-left:30px;
   background:var(--blue);color:var(--white);
   font-weight:700;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;
   padding:6px 14px;
+  clip-path:polygon(6px 0,100% 0,calc(100% - 6px) 100%,0 100%);
 }
 .view-all-wrap{margin-top:46px;position:relative;z-index:2;}
 
