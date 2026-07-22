@@ -720,6 +720,7 @@ footer li{margin-bottom:10px;}
     list-style:none;
   }
   .page-hero.no-slash .slash{display:none;}
+  .page-hero.no-slash img{object-fit:contain !important;}
   .contact-info{
     display:grid;
     grid-template-columns:1fr 1fr;
