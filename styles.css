@@ -720,6 +720,14 @@ footer li{margin-bottom:10px;}
     list-style:none;
   }
   .page-hero.no-slash .slash{display:none;}
+  .contact-info{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+  }
+  .contact-info .map-ph{
+    grid-column:1 / -1;
+  }
 }
 /* ============ MOTION & PREMIUM POLISH ============ */
 
