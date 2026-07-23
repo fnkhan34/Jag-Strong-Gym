@@ -734,6 +734,7 @@ footer li{margin-bottom:10px;}
   body::before{display:none;}
   .rv{transform:translateY(10px) !important;will-change:opacity,transform;}
   .rv.in{transform:none !important;}
+  .band:not(.flat) > *{transform:rotate(calc(var(--cut) * -1)) !important;}
 }
 /* ============ MOTION & PREMIUM POLISH ============ */
 
