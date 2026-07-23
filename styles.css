@@ -732,6 +732,8 @@ footer li{margin-bottom:10px;}
   }
   .page-hero{min-height:44vh !important;}
   body::before{display:none;}
+  .rv{transform:none !important;}
+  .rv.in{transform:none !important;}
 }
 /* ============ MOTION & PREMIUM POLISH ============ */
 
