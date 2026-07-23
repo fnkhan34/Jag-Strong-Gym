@@ -413,7 +413,7 @@ body.menu-open .mobile-menu a:nth-child(6){transition-delay:.38s;}
   margin:calc(2vw + 10px) -2vw;
   width:calc(100% + 4vw);
 }
-.band > *{transform:rotate(calc(var(--cut) * -1));}
+.band > *{transform:rotate(calc(var(--cut) * -1)) !important;}
 .band h2{font-size:clamp(1.5rem,3.8vw,2.6rem);color:var(--white);}
 .band h2 b{color:var(--black);}
 .band .band-cta{margin-top:24px;}
